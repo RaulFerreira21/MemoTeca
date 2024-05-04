@@ -9,7 +9,7 @@
       name="pensamento"
       id="pensamento"
       class="input"
-      placeholder="digite um pensamento",
+      placeholder="digite um pensamento"
       [(ngModel)]="pensamento.conteudo"
     />
     <label for="Pensamento">autoria</label>
@@ -81,7 +81,7 @@
     </div>
     <div class="acoes">
       <button class="botao" (click)="salvarPensamento()">Salvar</button>
-      <button class="botao" (click)="cancelarPensamento()">Cancelar</button>
+      <button class="botao button-cancelar" routerLink="/listarPensamento" (click)="cancelarPensamento()">Cancelar</button>
     </div>
   </form>
 </section>

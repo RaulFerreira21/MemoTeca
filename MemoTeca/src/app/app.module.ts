@@ -9,6 +9,7 @@ import { FormsModule } from '@angular/forms';
 import { ListarPensamentosComponent } from './components/pensamentos/listar-pensamentos/listar-pensamentos.component';
 import { RouterModule, RouterOutlet } from '@angular/router';
 import { AppRoutingModule } from './app-routing.module';
+import { PensamentoComponent } from './components/pensamentos/pensamento/pensamento.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { AppRoutingModule } from './app-routing.module';
     CabecalhoComponent,
     RodapeComponent,
     CriarPensamentoComponent,
-    ListarPensamentosComponent
+    ListarPensamentosComponent,
+    PensamentoComponent
   ],
   imports: [
     BrowserModule,
